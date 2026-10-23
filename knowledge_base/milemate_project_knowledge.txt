@@ -1,0 +1,38 @@
+MILEMATE — FICTIONAL DEMO DATA
+==============================
+
+Important notice
+----------------
+Every name, place, number, schedule, and product detail below is invented for
+this project demo. These are not verified real-world claims, services, routes,
+or travel advice.
+
+Fictional project overview
+-------------------------
+- MileMate is a fictional student travel assistance application.
+- The example is set at the fictional Northbridge University in the fictional
+  city of Alder Bay.
+- In this demo, MileMate helps students browse sample travel information and
+  save routes for later.
+- This demo does not book real travel, process payments, or provide live
+  location or transit information.
+
+Fictional demo service details
+------------------------------
+- The sample dataset contains three fictional bus routes: A1, B2, and C3.
+- Route A1 is shown between Northbridge University and Alder Bay Library.
+- Route B2 is shown between Northbridge University and Cedar Hall.
+- Route C3 is shown between Northbridge University and Harbor Park.
+- All three route names and destinations are fictional and exist only within
+  this example.
+- The fictional demo help desk is available Monday through Friday, 09:00 to
+  17:00 Alder Bay demo time.
+
+Fictional demo audience and goals
+---------------------------------
+- The intended demo audience is students who want to organize example trips.
+- A fictional usability exercise uses 20 made-up student profiles.
+- The example goal is for at least 16 of those 20 profiles to find and save a
+  sample route without assistance.
+- These profile counts and goals are illustrative only; no real study or
+  measurement has taken place.

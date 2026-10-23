@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: documentchat-ai
+    runtime: python
+    plan: standard
+    buildCommand: python -m pip install --no-cache-dir -r requirements.txt
+    startCommand: python -m streamlit run app.py --server.address 0.0.0.0 --server.port $PORT --server.headless true
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.10
+      - key: GROQ_API_KEY
+        sync: false
+      - key: GROQ_MODEL
+        sync: false
+      - key: CHROMA_DB_PATH
+        value: ./chroma_db
+      - key: EMBEDDING_MODEL
+        value: sentence-transformers/all-MiniLM-L6-v2
